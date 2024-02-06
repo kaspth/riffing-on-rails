@@ -73,6 +73,8 @@ class Spam::Detectors::Account::PostCount < Spam::Detectors::Abstract
   end
 end
 
+# The first check we did, just to start us off and then we continued from here.
+# We also had checks respond to `score` but ultimately moved on to hits/max_hits though I don't quite remember the reasoning now.
 class Spam::Detectors::Content::FirstPost < Spam::Detectors::Abstract
   def hit?
     post.content == "My first post"
