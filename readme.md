@@ -12,7 +12,7 @@ It's done in a blank file where you keep adding, removing or refining a sketch o
 
 This combines a focus on top-down design with listening to what the budding implementation is telling you — and if the implementation reveals an issue with your design, you now know you need to change your design early.
 
-> [!INFO]
+> [!TIP]
 > If you've heard of fat-marker sketches for UI design (so people don't get too bogged down in the implementation details), this is the code equivalent.
 
 So we're looking to get as much code design feedback as quickly as we can and being able to riff allows you to:
