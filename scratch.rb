@@ -1,13 +1,18 @@
+# You can run this locally from the `riff` clone directory:
+#   bundle exec ruby scratch.rb
+#
 # 1. Spam post detection: Run a forum post through a series of configurable checks to give it a spam score,
 # and flag the post when it crosses the threshold, with details on what led to the score.
 
 require "bundler/setup"
 require "active_record"
+require "action_controller"
 
 ActiveRecord::Base.establish_connection(adapter: "sqlite3", database: ":memory:")
 
 ActiveRecord::Schema.define do
   create_table :posts do |t|
+    t.references :user, null: false, index: true
     t.string :title, null: false
     t.text :content, null: false
   end
@@ -21,6 +26,7 @@ class ApplicationRecord < ActiveRecord::Base
 end
 
 class Post < ApplicationRecord
+  belongs_to :user
 end
 
 class User < ApplicationRecord
@@ -118,8 +124,17 @@ class Spam::Detectors::Content::Dictionary < Spam::Detectors::Abstract
   end
 end
 
+class ApplicationController < ActionController::Base
+end
+
 class Post::SpamDetectionsController < ApplicationController
   def create
     @detection = Spam::Detectors.check @post
   end
 end
+
+user = User.create!
+post = Post.create! user:, title: "First", content: "Heyo"
+
+
+binding.irb
