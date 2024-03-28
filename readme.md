@@ -27,6 +27,8 @@ It's best done in a session that lasts 30-60 min either alone or with partners. 
 
 [@jeremysmithco](https://github.com/jeremysmithco) and [@kaspth](https://github.com/kaspth) have done a few sessions to demonstrate this technique.
 
+[Here's the session where dispatcher.rb came about](https://www.youtube.com/watch?v=qQ0BxKFFX9Q). With special guest, @tcannonfodder!
+
 [Here's the session where friend.rb and rss.rb came about](https://www.youtube.com/watch?v=NjzzVMnkEo0). We're also showing how to make scratch.rb runnable so you can test out your interfaces in a console.
 
 [Here's the session where mix.rb came about](https://www.youtube.com/watch?v=i1MM2EOniPg)
