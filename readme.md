@@ -23,7 +23,7 @@ So we're looking to get as much code design feedback as quickly as we can and be
 
 It's best done in a session that lasts 30-60 min either alone or with partners. After a session, take a break and come back to it or sleep on it. If you're hitting diminishing returns that's also a sign to stop.
 
-### See it in action
+### See riffing in action on YouTube
 
 [@jeremysmithco](https://github.com/jeremysmithco) and [@kaspth](https://github.com/kaspth) have done a few sessions to demonstrate this technique.
 
@@ -34,3 +34,17 @@ It's best done in a session that lasts 30-60 min either alone or with partners. 
 [Here's the session where mix.rb came about](https://www.youtube.com/watch?v=i1MM2EOniPg)
 
 We didn't record when we did scratch.rb but it happened pretty much the same way.
+
+### RailsConf talk
+
+[@kaspth](https://github.com/kaspth) did a RailsConf talk about their general experiences with riffing.
+
+[Video](https://www.youtube.com/watch?v=vH-mNygyXs0) — [Slides](https://speakerdeck.com/kaspth/railsconf-2024-riffing-on-rails-sketch-your-way-to-better-designed-code)
+
+### BikeShed episode on Domain Modeling & Riffing
+
+[@kaspth](https://github.com/kaspth) went on the Bike Shed here https://bikeshed.thoughtbot.com/433
+
+### A write up intro on Riffing
+
+https://buttondown.com/kaspth/archive/my-intro-to-riffing-on-the-bike-shed-and-railsconf-talk/
