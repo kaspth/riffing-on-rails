@@ -1,14 +1,14 @@
 # Riffing on Rails
 
-When you're working on a new feature, it can be tough to break through how to actually build it. A common is to start somewhere, run some Rails scaffolds and migrate the database. Then a week later when you finally grok the problem, you're too far in — inertia takes a hold and sunk cost soon follows, "eh, I don't want to rip all that out now".
+When you're working on a new feature, it can be tough to break through how to actually build it. A common path is to start somewhere, run some Rails scaffolds and migrate the database. Then a while later when you finally get the problem, you're too far in — inertia takes a hold and sunk cost soon follows, "eh, I don't want to rip all that out now".
 
 Wouldn't it be great if there was a different way?
 
 ### Riffing: An alternative you've never seen before
 
-Riffing is an altogether different approach to software design that has more in common with art or creative acts. We're trying to engage our brain in a different way to come up with the names and structure we didn't know we needed.
+Riffing is an altogether different approach to software design that has more in common with art or creative acts. We're trying to engage our brain in a different way to come up with the names and structure we didn't know we needed by tapping into flow states.
 
-It's done in a blank file where you keep adding, removing or refining a sketch of Ruby code to prove out your design.
+Riffing is a code-based method for problem solving. It's done in a blank file where you keep adding, removing or refining a sketch of Ruby code to prove out your design.
 
 This combines a focus on top-down design with listening to what the budding implementation is telling you — and if the implementation reveals an issue with your design, you now know you need to change your design early.
 
