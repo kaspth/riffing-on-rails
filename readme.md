@@ -35,6 +35,14 @@ It's best done in a session that lasts 30-60 min either alone or with partners. 
 
 We didn't record when we did scratch.rb but it happened pretty much the same way.
 
+### Dead Code podcast
+
+[@kaspth](https://github.com/kaspth) appeared on the Dead Code podcast to talk about riffing.
+
+It's the most up-to-date version of me talking about this process & the principles within.
+
+https://shows.acast.com/dead-code/episodes/crushing-riffs-with-kasper-timm-hansen
+
 ### RailsConf talk
 
 [@kaspth](https://github.com/kaspth) did a RailsConf talk about their general experiences with riffing.
